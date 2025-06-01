@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/my-poem-site/',  // <- 加上這一行，名稱要和 GitHub repo 一樣
   plugins: [react()],
+  base: '/my-poem-site/', // 這裡填你的 GitHub Pages 專案名稱
 });
+
